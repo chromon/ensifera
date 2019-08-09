@@ -18,7 +18,8 @@ func AfterShuffle(count, amount int64) []int64 {
 	// 红包序列
 	res := make([]int64, 0)
 	// 计算最大金额
-	max := amount - min * count
+	//max := amount - min * count
+	max := amount
 	// 剩余最大金额
 	remain := max
 	// 随机生成初始红包序列
