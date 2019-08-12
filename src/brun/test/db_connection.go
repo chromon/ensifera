@@ -4,5 +4,8 @@ import "ensifera/db"
 
 func main() {
 	db.InitDB()
-	db.Insert()
+	//db.Delete()
+	//db.Update()
+	//db.Query()
+	db.QueryRow()
 }
